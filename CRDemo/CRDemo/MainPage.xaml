@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CRDemo;assembly=CRDemo.CustomControl"
+             xmlns:local1="clr-namespace:CRDemo.CustomControl"
+             x:Class="CRDemo.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Custom Render" 
+           HorizontalOptions="CenterAndExpand" FontSize="Medium" TextColor="Blue"/>
+        <!--<Entry HorizontalOptions="FillAndExpand"/>-->
+        <local1:CustomEntry HorizontalOptions="FillAndExpand"/>
+
+    </StackLayout>
+
+</ContentPage>
